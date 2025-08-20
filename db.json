@@ -14,6 +14,21 @@
         "space_status": "Available",
         "number_of_views": 15,
         "building_id": 1
+      },
+      {
+        "id": 2,
+        "space_id": "SP002",
+        "size": 80,
+        "listed_date": "2025-08-10",
+        "space_images": ["url3", "url4"],
+        "cover_image": ["cover2"],
+        "floor": 2,
+        "space_purpose": "Retail",
+        "price": 3000,
+        "number_of_rooms": 3,
+        "space_status": "Available",
+        "number_of_views": 8,
+        "building_id": 1
       }
     ],
   
@@ -60,8 +75,8 @@
         "gender": "Male",
         "phone_number": "+251900000000",
         "email": "john@example.com",
-        "business_license_image": "url_to_license",
-        "lease_id": 1
+        "business_license_image": "url_to_license"
+        
       }
     ],
   
@@ -120,6 +135,7 @@
     "leases": [
       {
         "id": 1,
+        "tenant_id": 1,
         "lease_start_date": "2025-01-01",
         "lease_end_date": "2025-12-31",
         "lease_update_date": "2025-08-01",
@@ -131,6 +147,21 @@
         "lease_image": ["lease1_url", "lease2_url"],
         "deposit_slip_image": ["deposit1_url"],
         "space_id": 1
+      },
+      {
+        "id": 2,
+        "tenant_id": 1,
+        "lease_start_date": "2025-06-01",
+        "lease_end_date": "2025-12-31",
+        "lease_update_date": "2025-07-01",
+        "rent_price": 3000,
+        "rent_payment_date": "2025-06-01",
+        "rent_payment_period": "Monthly",
+        "penalty_amount": 30,
+        "penalty_waiting_period": 5,
+        "lease_image": ["lease3_url"],
+        "deposit_slip_image": ["deposit2_url"],
+        "space_id": 2
       }
     ]
   }
